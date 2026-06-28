@@ -139,7 +139,7 @@ export const botConfig = {
     },
     footer: {
       // Default footer text used in bot embeds.
-      text: "Titan Bot",
+      text: "SunriseSMP",
       // Footer icon URL (null = no icon).
       icon: null,
     },
@@ -204,10 +204,10 @@ export const botConfig = {
   // =========================
   tickets: {
     // Category ID where new tickets are created (null = no forced category).
-    defaultCategory: null,
+    defaultCategory: 1520665396288557086,
 
     // Role IDs allowed to manage/support tickets.
-    supportRoles: [],
+    supportRoles: [1520653882907426949],
 
     // Priority options users/staff can assign.
     priorities: {
@@ -245,7 +245,7 @@ export const botConfig = {
     archiveCategory: null,
 
     // Channel ID where ticket logs are sent.
-    logChannel: null,
+    logChannel: 1520669728727765032,
   },
 
   // =========================
@@ -278,7 +278,7 @@ export const botConfig = {
   // =========================
   birthday: {
     // Role ID given to users on their birthday.
-    defaultRole: null,
+    defaultRole: 1520674303803134102,
 
     // Channel ID where birthday announcements are posted.
     announcementChannel: null,
